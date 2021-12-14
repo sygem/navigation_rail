@@ -96,19 +96,19 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       tabs: <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          title: Text("Folders"),
+          title: "Folders",
           icon: Icon(Icons.folder),
         ),
         BottomNavigationBarItem(
-          title: Text("History"),
+          title: "History",
           icon: Icon(Icons.history),
         ),
         BottomNavigationBarItem(
-          title: Text("Gallery"),
+          title: "Gallery",
           icon: Icon(Icons.photo_library),
         ),
         BottomNavigationBarItem(
-          title: Text("Camera"),
+          title: "Camera",
           icon: Icon(Icons.camera),
         ),
       ],
